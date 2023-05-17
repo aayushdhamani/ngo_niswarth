@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Link, Element } from 'react-scroll';
+import Header from './header/header';
+import Home from './home/home';
+import Footer from './footer/footer';
+import About from './about us/about';
+import Donate from './donate/donate';
+import Team from './Our team/team';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+      
+    <Header/>
+
+      <Element name="component1" className="element">
+      <Home/>
+      </Element>
+      <Element name="component2" className="element">
+      <About/>
+      </Element>
+
+      <Element name="component3" className="element">
+      <Donate/>
+      </Element>
+      <Element name="component4" className="element">
+      <Team/>
+      </Element>
+      <Element name="component5" className="element">
+      <Footer/>
+      </Element>
+    
     </div>
+    {/* <Home/> */}
+    {/* <About/> */}
+   
+    
+
+    </>
   );
 }
 
