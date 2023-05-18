@@ -5,7 +5,7 @@ const about = () => {
   return (
     <div>
       <div className="container mt-4" styel={{fontSize:'10px'}}>
-        <p className="heading fw-bolder" style={{color:'#ffc107'}}>About Us</p>
+        <p className="heading fw-bolder" style={{color:'#f9b316'}}>About Us</p>
         <div class="content">
         <p class="" style={{color:'grey'}}><em>“I slept and dreamt that life was a joy. I awoke and saw that life was service. I acted and behold, service was a joy.” ~ Rabindranath Tagore</em>
 </p>

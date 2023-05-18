@@ -14,8 +14,8 @@ const footer = () => {
         <p><b>Mobile:</b><a href="tel:9829254717">Call us at 9829254717</a></p>
 
     </div>
-     
     </footer>
+    
     </div>
   )
 }

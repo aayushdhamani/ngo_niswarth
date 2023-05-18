@@ -2,8 +2,9 @@
   color: #000000;
 
   &:hover {
-    color: #ffc107;
+    color: black;
     font-weight: bold;
+    cursor: pointer;
   }
 }
 

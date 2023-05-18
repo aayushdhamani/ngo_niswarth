@@ -2,7 +2,11 @@ import React from 'react'
 import './home.css';
 import 'tailwindcss/tailwind.css';
 import img1 from './img1.jpg';
-import img from './slider1.jpg';
+import img3 from './dog1.jpg';
+import img2 from './dog2.jpg';
+import img4 from './dog3.jpg';
+
+
 
 const home = () => {
   return (
@@ -12,11 +16,11 @@ const home = () => {
       <div className="container" >
         <div className=" justify-center items-center mt-4" style={{fontSize:'10px'}}>
           <div>
-          <h1 className="brand_name  text-center fw-bold" style={{color:'#ffc107'}}>
+          <h1 className="brand_name  text-center fw-bold" style={{color:'#f9b316'}}>
           NISWARTH
           </h1>
           </div>
- <div><p className=" sub-heading text-center fw-bold" style={{color:'#ffc107'}}>{" "}Animal welfare Organisation{" "}</p></div>
+ <div><p className=" sub-heading text-center fw-bold" style={{color:'#f9b316'}}>{" "}Animal welfare Organisation{" "}</p></div>
           <p className=" slogen mt-3 text-center" style={{color:'grey'}}>
           सेवा मनुष्य की स्वाभाविक वृत्ति है। सेवा ही उसके जीवन का आधार है। – प्रेमचन्द
           </p>
@@ -30,10 +34,13 @@ const home = () => {
       <img src={img1}class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={img} class="d-block w-100" alt="..."/>
+      <img src={img2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={img} class="d-block w-100" alt="..."/>
+      <img src={img3} class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={img4} class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

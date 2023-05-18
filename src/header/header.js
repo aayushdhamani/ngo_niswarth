@@ -9,7 +9,8 @@ const Header = () => {
       <div className="logo-container mt-2 mb-0">
         <img src={logo} alt="" className="logo-image" />
       </div>
-      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#ffffff' }}>
+      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor:'#f9b316', width:'100%'}}>
+
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -57,7 +58,7 @@ const Header = () => {
                   offset={-70}
                   duration={500}
                 >
-                  Our Team
+                  Donate Now
                 </Link>
               </li>
               <li className="nav-item">
@@ -69,7 +70,7 @@ const Header = () => {
                   offset={-70}
                   duration={400}
                 >
-                  Donate Now
+                  Our Team
                 </Link>
               </li>
               <li className="nav-item">
@@ -81,7 +82,7 @@ const Header = () => {
                   offset={-70}
                   duration={500}
                 >
-                  Join Us
+                  Gallery
                 </Link>
               </li>
             </ul>
