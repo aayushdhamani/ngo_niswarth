@@ -21,6 +21,11 @@ const donate = () => {
         <img class="qr"  src={qr} alt="qr"  />
     </div>
     </div>
+   <div className=" text-start heading  " style={{color:'#f9b316',fontSize:'10px'}}>
+    <p class="join fw-bolder">BECOME A PROUD VOLUNTEER</p>
+    
+    <p class="dohed" style={{color:'grey'}}>Join hands with the team of Niswarth to provide food and shelter to the animals around you. Save the beautiful souls with love and compassion</p>
+   </div>
    </div>
    </>
   )

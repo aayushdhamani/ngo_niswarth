@@ -70,7 +70,7 @@ const Header = () => {
                   offset={-70}
                   duration={400}
                 >
-                  Our Team
+                  Gallery
                 </Link>
               </li>
               <li className="nav-item">
@@ -82,7 +82,7 @@ const Header = () => {
                   offset={-70}
                   duration={500}
                 >
-                  Gallery
+                  Our Team
                 </Link>
               </li>
             </ul>

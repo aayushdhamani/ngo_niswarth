@@ -27,14 +27,12 @@ function App() {
       <Donate/>
       </Element>
       <Element name="component4" className="element">
-      <Team/>
       <Gallery/>
       </Element>
       <Element name="component5" className="element">
-      <Footer/>
-
-      </Element>
-    
+      <Team/>
+       </Element>
+    <Footer/>
     </div>
    
    

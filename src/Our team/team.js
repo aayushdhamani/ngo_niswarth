@@ -7,9 +7,9 @@ import Team3 from './team3.jpg';
 const team = () => {
   return (
     <div>
-        <div className="container">
+        <div className="container ">
         <div className="text-center heading fw-bolder mb-3" style={{color:'#ffc107'}}>Our Team</div>
-        <div className="container row d-flex justify-content-evenly">
+        <div className="container row d-flex justify-content-evenly mb-3">
       <div class="card col-md-4" style={{ width: "18rem" }}>
   <img src={Team1} alt="Card Image"/>
   <h2 class="card-heading">David</h2>
