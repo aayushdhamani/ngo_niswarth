@@ -36,6 +36,9 @@
   .logo-container{
     max-width:20%;
   }
+  /* .nav-item{
+    font-size:3em;
+   } */
 }
   
 
@@ -70,3 +73,6 @@
   width: 150px; /* Adjust the width to your desired size */
   height: auto; /* Maintain aspect ratio */
 }
+.nav-item{
+  font-size:2em;
+ }

@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor:'#f9b316', width:'100%'}}>
 
-        <div className="container-fluid">
+        <div className="container">
           <button
             className="navbar-toggler"
             type="button"
@@ -23,11 +23,11 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{fontSize:'10px'}}>
+              <li className="nav-item mx-5">
                 <Link
-                  className="nav-link fs-3"
+                  className="nav-link "
                   to="component1"
                   spy={true}
                   smooth={true}
@@ -37,9 +37,9 @@ const Header = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-5">
                 <Link
-                  className="nav-link fs-3"
+                  className="nav-link "
                   to="component2"
                   spy={true}
                   smooth={true}
@@ -49,9 +49,9 @@ const Header = () => {
                   About Us
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-5">
                 <Link
-                  className="nav-link fs-3"
+                  className="nav-link "
                   to="component3"
                   spy={true}
                   smooth={true}
@@ -61,9 +61,9 @@ const Header = () => {
                   Donate Now
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-5">
                 <Link
-                  className="nav-link fs-3"
+                  className="nav-link "
                   to="component4"
                   spy={true}
                   smooth={true}
@@ -73,9 +73,9 @@ const Header = () => {
                   Gallery
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-5">
                 <Link
-                  className="nav-link fs-3"
+                  className="nav-link "
                   to="component5"
                   spy={true}
                   smooth={true}

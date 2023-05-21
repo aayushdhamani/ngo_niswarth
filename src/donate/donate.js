@@ -16,8 +16,12 @@ const donate = () => {
 
         
         <p class="dohed" style={{color:'grey'}}>Remember that the happiest people are not those getting more, but those giving more.</p>
-        <p class="dohed" style={{color:'grey'}}>Donate for the shelter services</p>
-        <p class="dohed" style={{color:'grey'}}>Donate to feed stray dogs, cats, cows</p>
+        <ul>
+          <li class="dohed" style={{fontWeight:"bolder",listStyleType:"square",alignContent:"flex-start"}}>Donate for the shelter services</li>
+          <li class="dohed" style={{fontWeight:"bolder",listStyleType:"square"}}>Donate to feed stray dogs, cats, cows</li>
+        </ul>
+        {/* <p class="dohed" style={{color:'grey'}}>Donate for the shelter services</p>
+        <p ></p> */}
         <img class="qr"  src={qr} alt="qr"  />
     </div>
     </div>

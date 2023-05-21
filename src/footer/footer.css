@@ -1,19 +1,30 @@
 .container {
   display: grid;
   place-items: center;
+  height:auto;
+
 }
 .image{
   max-width: 100%; 
   height: auto;
 }
+
+
 @media only screen and (max-width:320px) {
   .footer {
     font-size: .8em;
 
   }
   .image {
-   width:30%;
+   width:35%;
   }
+  .email{
+    padding-right:68px;
+  }
+  .mobile{
+    padding-left:70px;
+  }
+
 }
 
 @media (min-width:321px) and (max-width: 768px) {
@@ -24,15 +35,21 @@
   .image {
     max-width: 20%;
   }
+  .email{
+    padding-right:55px;
+  }
+  .mobile{
+    padding-left:100px;
+  }
 }
 
 @media (min-width:769px) and (max-width:2560px) {
   .footer {
-    font-size: 1.1em;
+    font-size: 1.5em;
 
   }
   .image{
-    max-width:10%;
+    max-width:12%;
   }
 }
 
